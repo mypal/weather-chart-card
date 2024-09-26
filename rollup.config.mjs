@@ -1,6 +1,7 @@
 import resolve from 'rollup-plugin-node-resolve';
 import serve from 'rollup-plugin-serve';
 import copy from 'rollup-plugin-copy';
+import terser from '@rollup/plugin-terser';
 
 const dev = process.env.ROLLUP_WATCH;
 
@@ -30,6 +31,7 @@ export default {
         { src: 'src/icons/*', dest: 'dist/icons' },
         { src: 'src/icons2/*', dest: 'dist/icons2' }
       ]
-    })
+    }),
+    terser(),
   ],
 };

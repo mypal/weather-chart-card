@@ -641,6 +641,7 @@ class WeatherChartCardEditor extends LitElement {
            @closed=${(ev) => ev.stopPropagation()}
          >
            <ha-list-item .value=${''}>HA Default</ha-list-item>
+           <ha-list-item .value=${'zh'}>中文</ha-list-item>
            <ha-list-item .value=${'bg'}>Bulgarian</ha-list-item>
            <ha-list-item .value=${'ca'}>Catalan</ha-list-item>
            <ha-list-item .value=${'cs'}>Czech</ha-list-item>

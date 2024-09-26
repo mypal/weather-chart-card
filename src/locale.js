@@ -169,6 +169,40 @@ const locale = {
     'windy': 'Windy',
     'windy-variant': 'Windy'
   },
+  zh: {
+    'tempHi': '最高温度',
+    'tempLo': '最低温度',
+    'precip': '降水',
+    'feelsLike': '体感',
+    'units': {
+      'km/h': 'km/h',
+      'm/s': 'm/s',
+      'mph': 'mph',
+      'Bft': '级',
+      'hPa': '百帕',
+      'mmHg': 'mm Hg',
+      'mm': 'mm',
+      'in': 'in'
+    },
+    'cardinalDirections': [
+      '北', '北偏东北', '东北', '东偏东北', '东', '东偏东南', '东南', '南偏东南',
+      '南', '南偏西南', '西南', '西偏西南', '西', '西偏西北', '西北', '北偏西北', '北'
+    ],
+    'clear-night': '晴夜',
+    'cloudy': '阴',
+    'fog': '雾',
+    'hail': '冰雹',
+    'lightning': '雷电',
+    'lightning-rainy': '雷阵雨',
+    'partlycloudy': '多云',
+    'pouring': '大雨',
+    'rainy': '雨',
+    'snowy': '雪',
+    'snowy-rainy': '雨夹雪',
+    'sunny': '晴',
+    'windy': '风',
+    'windy-variant': '阵风'
+  },
   es: {
     'tempHi': 'Temperatura máxima',
     'tempLo': 'Temperatura mínima',
